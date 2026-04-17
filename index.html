@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مركز الدعم الذكي | StarsWorld0</title>
+    
+    <script src="https://salla.gomubasher.com/api/v1/whatsapp/bot/aeda36e1-6f96-41b9-9018-8a931acfe3e7/widget.js" defer></script>
+    <script src="https://salla.gomubasher.com/api/v1/whatsapp/bot/9bc0cf14-81f9-4f19-8a53-30b38244d905/widget.js" defer></script>
+
+    <style>
+        :root {
+            --main-green: #25d366;
+            --dark-blue: #075e54;
+            --bg-light: #f0f2f5;
+            --white: #ffffff;
+            --danger: #e74c3c;
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+
+        body {
+            background-color: var(--bg-light);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .main-card {
+            background: var(--white);
+            width: 100%;
+            max-width: 550px;
+            border-radius: 24px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            overflow: hidden;
+            animation: slideUp 0.6s ease-out;
+        }
+
+        @keyframes slideUp {
+            from { opacity: 0; transform: translateY(30px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .card-header {
+            background: linear-gradient(135deg, var(--dark-blue), var(--main-green));
+            padding: 40px 20px;
+            text-align: center;
+            color: var(--white);
+        }
+
+        .card-header h1 { font-size: 24px; margin-bottom: 8px; letter-spacing: 1px; }
+        .card-header p { font-size: 14px; opacity: 0.9; }
+
+        .content-body { padding: 30px 25px; }
+
+        /* منطقة التنبيه الذهبية */
+        .alert-box {
+            background: #fff9e6;
+            border-right: 5px solid #ffcc00;
+            padding: 20px;
+            border-radius: 12px;
+            margin-bottom: 25px;
+        }
+
+        .alert-box h4 { color: #856404; margin-bottom: 10px; display: flex; align-items: center; gap: 8px; }
+
+        .number-format {
+            display: block;
+            background: #2c3e50;
+            color: #fff;
+            padding: 15px;
+            border-radius: 10px;
+            font-size: 20px;
+            text-align: center;
+            direction: ltr;
+            margin: 15px 0;
+            font-weight: bold;
+            border: 2px solid var(--main-green);
+        }
+
+        .plus-sign { color: var(--main-green); font-size: 24px; }
+
+        /* الخطوات */
+        .step-item {
+            display: flex;
+            gap: 15px;
+            margin-bottom: 20px;
+            align-items: flex-start;
+        }
+
+        .step-number {
+            background: var(--main-green);
+            color: white;
+            width: 28px;
+            height: 28px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+            font-weight: bold;
+            font-size: 14px;
+        }
+
+        .step-text b { color: var(--dark-blue); display: block; margin-bottom: 4px; }
+        .step-text p { font-size: 14px; color: #555; }
+
+        /* إخلاء المسؤولية */
+        .disclaimer-section {
+            background: #fdfdfd;
+            border-top: 1px solid #eee;
+            padding: 20px 25px;
+            font-size: 12px;
+            color: #888;
+            line-height: 1.6;
+            text-align: justify;
+        }
+
+        .footer-logo {
+            text-align: center;
+            padding: 15px;
+            font-weight: bold;
+            color: #ccc;
+            font-size: 14px;
+        }
+
+        /* تحسينات الجوال */
+        @media (max-width: 480px) {
+            .card-header { padding: 30px 15px; }
+            .number-format { font-size: 18px; }
+        }
+
+        /* نبض توجيهي */
+        .scroll-hint {
+            text-align: center;
+            color: var(--main-green);
+            font-weight: bold;
+            margin-top: 10px;
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(1); opacity: 1; }
+            50% { transform: scale(1.05); opacity: 0.7; }
+            100% { transform: scale(1); opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="main-card">
+        <div class="card-header">
+            <h1>StarsWorld0.com</h1>
+            <p>المساعد الذكي لخدمة العملاء</p>
+        </div>
+
+        <div class="content-body">
+            <div class="alert-box">
+                <h4>⚠️ ملاحظة تقنية لعمل "الرد الآلي":</h4>
+                <p style="font-size: 14px; color: #666;">
+                    لكي يتمكن البوت من التعرف على طلبك والرد فوراً، يجب كتابة رقمك بالصيغة الدولية مع علامة الموجب:
+                </p>
+                <div class="number-format">
+                    <span class="plus-sign">+</span>966 5X XXX XXXX
+                </div>
+            </div>
+
+            <div class="step-item">
+                <div class="step-number">1</div>
+                <div class="step-text">
+                    <b>تفعيل المحادثة</b>
+                    <p>انقر على أيقونة الواتساب التي ستظهر أسفل الشاشة الآن.</p>
+                </div>
+            </div>
+
+            <div class="step-item">
+                <div class="step-number">2</div>
+                <div class="step-text">
+                    <b>إدخال البيانات</b>
+                    <p>أدخل رقمك المسجل بمتجرنا بصيغة <span dir="ltr">+966</span> و انتظر التحقق.</p>
+                </div>
+            </div>
+
+            <div class="step-item">
+                <div class="step-number">3</div>
+                <div class="step-text">
+                    <b>الرد الفوري</b>
+                    <p>سيظهر لك قائمة بخيارات (تتبع الطلب، الدعم الفني، المبيعات) تلقائياً.</p>
+                </div>
+            </div>
+
+            <div class="scroll-hint">الخدمة جاهزة.. ابدأ المحادثة الآن بالأسفل ↘️</div>
+        </div>
+
+        <div class="disclaimer-section">
+            <strong>إخلاء مسؤولية:</strong> 
+            هذا النظام مقدم عبر منصة Gomubasher لخدمة عملاء متجر (StarsWorld0). نحن لا نتحمل مسؤولية أي تواصل يتم خارج هذه القنوات الرسمية. البيانات المدخلة تستخدم فقط لأغراض التحقق من الطلبات و تقديم الدعم الفني. الرد الآلي قد يتأثر بجودة الاتصال لديك أو تحديثات النظام من المصدر.
+        </div>
+
+        <div class="footer-logo">
+            &copy; 2026 StarsWorld0. All Rights Reserved.
+        </div>
+    </div>
+
+    <script>
+        // اختبار برمجي داخلي للتأكد من جاهزية البوتات
+        window.addEventListener('load', function() {
+            console.log("StarsWorld0 UI: Systems Check... OK");
+            
+            // في حال وجود تعارض، هذا الكود الصغير يقوم بإعادة تنشيط الويدجت بعد ثانية
+            setTimeout(() => {
+                window.dispatchEvent(new Event('resize'));
+            }, 1000);
+        });
+    </script>
+</body>
+</html>
